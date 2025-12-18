@@ -20,6 +20,19 @@ cd para a pasta! ^_^
 npm i bootstrap react-bootstrap
 npm i -D scss
 npm install -D sass-embedded
+
+npm install react-router-dom 
+
+npm install react-bootstrap-icons
+npm i --save @fortawesome/react-fontawesome@latest
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm install @fortawesome/free-brands-svg-icons
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+npm install react-icons
+
 ```
 
 
@@ -46,9 +59,16 @@ Rules for Cards Against Humanity: https://cdn.sanity.io/files/vc07edlh/productio
 - React-Bootstrap: https://react-bootstrap.netlify.app/docs/getting-started/introduction
 - Gradiants: https://webgradients.com/
 
+### Icons And Images:
+- BootStrap Icons: https://icons.getbootstrap.com/
+- FontAwesome: https://fontawesome.com/
+
+
 ### Random guys on YouTube:
-Creating a UI with React and Vite Tutorial | Bootstrap, SCSS, and API Integration:
-- https://www.youtube.com/watch?v=zuptcy3gLwQ
+- React and Vite Tutorial: https://www.youtube.com/watch?v=zuptcy3gLwQ
+
+### Guides
+- Routes: https://www.w3schools.com/react/react_router.asp
 
 ### Emotion Support ChatBot:
 - 404 (it was here just now!)
