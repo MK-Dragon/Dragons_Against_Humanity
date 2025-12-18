@@ -1,3 +1,3 @@
-// ../components/JokeDisply.jsx
+// /src/components/JokeDisply.jsx
 
 // Shows the F#$%ing Joke!

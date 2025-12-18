@@ -78,16 +78,16 @@ function App() {
 
       <BrowserRouter>
 
-      {/* Routes */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/products" element={<Products />}>
-          <Route path="car" element={<CarProducts />} />
-          <Route path="bike" element={<BikeProducts />} />
-        </Route>
-      </Routes>
+        {/* Routes */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />}>
+            <Route path="car" element={<CarProducts />} />
+            <Route path="bike" element={<BikeProducts />} />
+          </Route>
+        </Routes>
 
       </BrowserRouter>
 
