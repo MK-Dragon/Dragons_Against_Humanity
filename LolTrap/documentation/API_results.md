@@ -1,0 +1,42 @@
+Two Part Joke:
+```json
+{
+    "error": false,
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "Why did the Python data scientist get arrested at customs?",
+    "delivery": "She was caught trying to import pandas!",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 233,
+    "safe": true,
+    "lang": "en"
+}
+```
+
+One Part Joke:
+```json
+{
+    "error": false,
+    "category": "Programming",
+    "type": "single",
+    "joke": "Being a self-taught developer is almost the same as being a cut neck chicken because you have no sense of direction in the beginning.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 183,
+    "safe": false,
+    "lang": "en"
+}
+```

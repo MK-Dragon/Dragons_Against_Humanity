@@ -2,6 +2,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import JokeSettingsPicker from '../components/JokeSettingsPicker';
+import JokeDisply from '../components/JokeDisply';
 
 const joke_categories = ["Programming", "Dad Jokes", "Puns", "Why Not?!"];
 const black_list = ["Dogs", "Cats", "Rat", "Hell No!"];
@@ -14,6 +15,8 @@ function Home() {
       {/* Pass the array into the 'options' prop */}
       <JokeSettingsPicker title='Select Joke Categories' options={joke_categories} ac_id={0} />
       <JokeSettingsPicker title='Black List' options={black_list} ac_id={1} />
+      <hr/>
+      <JokeDisply joke="Why the chicken cross the Road? Cause cooo" />
     </div>
   );
 }
