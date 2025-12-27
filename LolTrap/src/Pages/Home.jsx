@@ -4,10 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import JokeSettingsPicker from '../components/JokeSettingsPicker';
 import JokeDisply from '../components/JokeDisply';
 
+import birdImage from '../imgs/bird.png'; 
+import dogImage from '../imgs/dog.png'; 
+
 function Home() {
   const [categories, setCategories] = useState([]);
   const [flags, setFlags] = useState([]);
-  const [selectedCats, setSelectedCats] = useState([]);
+  const [selectedCats, setSelectedCats] = useState(['Any']); // Start with Any
   const [selectedBlacklist, setSelectedBlacklist] = useState([]);
   
   // Store the entire joke object from the API here
@@ -34,8 +37,10 @@ function Home() {
   }, []);
 
   const getJoke = async () => {
-    const categoryPath = selectedCats.length > 0 ? selectedCats.join(',') : 'Any';
-    const blacklistQuery = selectedBlacklist.length > 0 ? `&blacklistFlags=${selectedBlacklist.join(',')}` : '';
+    const categoryPath = selectedCats.join(',');
+    const blacklistQuery = selectedBlacklist.length > 0 && selectedBlacklist[0] !=="Any"
+    ? `&blacklistFlags=${selectedBlacklist.join(',')}` 
+    : '';
     
     try {
       // Note: Use ? instead of & if it's the only parameter, but JokeAPI works best like this:
@@ -59,6 +64,14 @@ function Home() {
   return (
     <div className="container mt-5">
       <h1>Joke Generator</h1>
+      <div className="text-center mb-4">
+        <img 
+          src={birdImage} 
+          alt="Bird" 
+          className="img-fluid rounded" 
+          style={{ maxHeight: '200px' }} 
+        />
+      </div>
       <hr />
       
       <JokeSettingsPicker title='Select Joke Categories' options={categories} ac_id={0} selected={selectedCats} onChange={setSelectedCats} />

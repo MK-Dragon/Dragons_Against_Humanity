@@ -22,7 +22,6 @@ function JokeDisply({ title = "Joke", joke = "", delivery = "" }) {
         {/* This section only renders if delivery exists and is not empty */}
         {delivery && (
           <div id="delivery" className="mt-3 pt-3 border-top border-light">
-            <hr />
             <Card.Text className="fw-bold italic">
               {delivery}
             </Card.Text>

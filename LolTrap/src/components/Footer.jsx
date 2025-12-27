@@ -1,8 +1,9 @@
 // /src/components/Footer.jsx
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHatWizard } from '@fortawesome/free-solid-svg-icons'
-import { faCriticalRole } from '@fortawesome/free-brands-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faHatWizard } from '@fortawesome/free-solid-svg-icons'
+//import { faCriticalRole } from '@fortawesome/free-brands-svg-icons';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Footer() {
 
@@ -12,7 +13,7 @@ function Footer() {
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <p class="mb-0">&copy; 2025/2026 MK-Dragon. | <FontAwesomeIcon icon={faCriticalRole} /> All rights reserved. <FontAwesomeIcon icon={faHatWizard} /></p>
+                        <p class="mb-0">&copy; 2025/2026 MK-Dragon. | All rights reserved. <i class="bi bi-emoji-laughing"></i></p>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="social-icons">
@@ -30,3 +31,6 @@ function Footer() {
 };
 
 export default Footer;
+
+
+// <p class="mb-0">&copy; 2025/2026 MK-Dragon. | <FontAwesomeIcon icon={faCriticalRole} /> All rights reserved. <FontAwesomeIcon icon={faHatWizard} /></p>

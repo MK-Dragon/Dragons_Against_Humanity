@@ -3,11 +3,29 @@ import { Accordion, ButtonGroup, ToggleButton } from 'react-bootstrap';
 
 function JokeSettingsPicker({ ac_id = 0, title = "", options = [], selected = [], onChange }) {
   const handleToggle = (val) => {
-    const nextSelected = selected.includes(val)
-      ? selected.filter((i) => i !== val)
-      : [...selected, val];
-    onChange(nextSelected); // Send the new array back to Home.jsx
-  };
+  let nextSelected;
+
+  if (val.toLowerCase() === 'any') {
+    // If clicking 'Any', it should be the ONLY one selected
+    nextSelected = ['Any'];
+  } else {
+    // If clicking something else:
+    // 1. Remove 'Any' (if it exists)
+    // 2. Toggle the current value
+    const withoutAny = selected.filter(i => i.toLowerCase() !== 'any');
+    
+    nextSelected = withoutAny.includes(val)
+      ? withoutAny.filter((i) => i !== val)
+      : [...withoutAny, val];
+
+    // Optional: If you deselect everything, default back to 'Any'
+    if (nextSelected.length === 0) {
+      nextSelected = ['Any'];
+    }
+  }
+  
+  onChange(nextSelected);
+};
 
   return (
     <Accordion alwaysOpen>

@@ -12,13 +12,14 @@ import Footer from './components/Footer';
 
 // Pages:
 import Home from './Pages/Home.jsx'
+import About from './Pages/About.jsx'
 
 
 
 
-function About() {
+/*function About() {
   return <h1>About Page</h1>;
-}
+}*/
 
 function Contact() {
   return <h1>Contact Page</h1>;

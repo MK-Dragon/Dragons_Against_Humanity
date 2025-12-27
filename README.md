@@ -5,14 +5,13 @@ A fun D&amp;D take on the popular game "cards against humanity"! Draw some cards
 
 # How to RUN:
 ```bash
-cd paises-api
-npm install
+cd para a pasta! ^_^
 npm run dev
 ```
 
 <br>
 
-### Install:
+### Install / Setup:
 ```bash
 npm create vite@latest
 cd para a pasta! ^_^
@@ -24,6 +23,7 @@ npm install -D sass-embedded
 npm install react-router-dom 
 
 npm install react-bootstrap-icons
+npm install bootstrap-icons
 npm i --save @fortawesome/react-fontawesome@latest
 npm i --save @fortawesome/fontawesome-svg-core
 npm i --save @fortawesome/free-solid-svg-icons
@@ -62,6 +62,7 @@ Rules for Cards Against Humanity: https://cdn.sanity.io/files/vc07edlh/productio
 ### Icons And Images:
 - BootStrap Icons: https://icons.getbootstrap.com/
 - FontAwesome: https://fontawesome.com/
+- Remove background: https://www.remove.bg/upload
 
 
 ### Random guys on YouTube:
