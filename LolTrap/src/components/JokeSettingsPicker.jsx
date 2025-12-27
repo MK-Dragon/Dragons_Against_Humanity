@@ -1,21 +1,16 @@
 import { useState } from 'react';
 import { Accordion, ButtonGroup, ToggleButton } from 'react-bootstrap';
 
-// Destructure { options } from the props object
-function JokeSettingsPicker({ ac_id = 0, title = "", options = [] }) {
-  // Track selected items in an array
-  const [selected, setSelected] = useState([]);
-
+function JokeSettingsPicker({ ac_id = 0, title = "", options = [], selected = [], onChange }) {
   const handleToggle = (val) => {
-    setSelected((prev) =>
-      prev.includes(val) 
-        ? prev.filter((i) => i !== val) // Remove if already there
-        : [...prev, val]                // Add if not there
-    );
+    const nextSelected = selected.includes(val)
+      ? selected.filter((i) => i !== val)
+      : [...selected, val];
+    onChange(nextSelected); // Send the new array back to Home.jsx
   };
 
   return (
-    <Accordion defaultActiveKey={['0']} alwaysOpen>
+    <Accordion alwaysOpen>
       <Accordion.Item eventKey="0">
         <Accordion.Header>{title}</Accordion.Header>
         <Accordion.Body>

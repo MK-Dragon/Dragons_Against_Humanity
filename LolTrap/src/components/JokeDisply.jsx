@@ -4,28 +4,32 @@
 
 import Card from 'react-bootstrap/Card';
 
-function JokeDisply({ joke="" }) {
-  var variant = 'Primary'
+function JokeDisply({ title = "Joke", joke = "", delivery = "" }) {
+  const variant = 'Primary';
+
   return (
-    <>
-      {
-        <Card
-          bg={variant.toLowerCase()}
-          key={variant}
-          text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-          style={{ width: '18rem' }}
-          className="mb-2"
-        >
-          <Card.Header>Funny Joke</Card.Header>
-          <Card.Body>
-            <Card.Title>{variant} Card Title </Card.Title>
-            <Card.Text>
-              Joke: {joke}
+    <Card
+      bg={variant.toLowerCase()}
+      text="white"
+      className="mb-2 w-100" // Set to w-100 to fill the jokeBox container
+    >
+      <Card.Header>{title}</Card.Header>
+      <Card.Body>
+        <Card.Text className="fs-5">
+          {joke}
+        </Card.Text>
+
+        {/* This section only renders if delivery exists and is not empty */}
+        {delivery && (
+          <div id="delivery" className="mt-3 pt-3 border-top border-light">
+            <hr />
+            <Card.Text className="fw-bold italic">
+              {delivery}
             </Card.Text>
-          </Card.Body>
-        </Card>
-      }
-    </>
+          </div>
+        )}
+      </Card.Body>
+    </Card>
   );
 }
 
