@@ -1,7 +1,16 @@
 # Dragons_Against_Humanity
 A fun D&amp;D take on the popular game "cards against humanity"! Draw some cards and create THE Most Fun and Chaotic story you can! (Best Played with FUN Drunk and Frieds)
 
+<br>
+This app was abandoned for gameplay resons...
+
 <br><br><hr><hr><br><br>
+
+# LoolTrap
+LoolTrap is an APP that traps you in it by serving you Jokes! ^_^ Then you are traped, but "Laughing Out Loud"! XD
+
+<br><br><hr><hr><br><br>
+
 
 # How to RUN:
 ```bash
