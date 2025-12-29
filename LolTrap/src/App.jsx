@@ -11,7 +11,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 // Pages:
-import Home from './Pages/Home.jsx'
+import Jokes from './Pages/Jokes.jsx'
 import About from './Pages/About.jsx'
 
 
@@ -19,7 +19,7 @@ import About from './Pages/About.jsx'
 
 /*function About() {
   return <h1>About Page</h1>;
-}*/
+}
 
 function Contact() {
   return <h1>Contact Page</h1>;
@@ -68,6 +68,13 @@ function BikeProducts() {
   );
 }
 
+        //<Routes>
+          //<Route path="/products" element={<Products />}>
+            //<Route path="car" element={<CarProducts />} />
+            //<Route path="bike" element={<BikeProducts />} />
+          //</Route>
+        //</Routes>
+*/
 
 
 function App() {
@@ -81,13 +88,10 @@ function App() {
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Jokes />} />
+          <Route path="/jokes" element={<Jokes />} />
+          <Route path="/dnd" element={<Jokes />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/products" element={<Products />}>
-            <Route path="car" element={<CarProducts />} />
-            <Route path="bike" element={<BikeProducts />} />
-          </Route>
         </Routes>
 
       </BrowserRouter>

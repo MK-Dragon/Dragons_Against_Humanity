@@ -7,7 +7,7 @@ import JokeDisply from '../components/JokeDisply';
 import birdImage from '../imgs/bird.png'; 
 import dogImage from '../imgs/dog.png'; 
 
-function Home() {
+function Jokes() {
   const [categories, setCategories] = useState([]);
   const [flags, setFlags] = useState([]);
   const [selectedCats, setSelectedCats] = useState(['Any']); // Start with Any
@@ -99,4 +99,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Jokes;
