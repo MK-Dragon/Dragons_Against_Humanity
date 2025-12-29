@@ -1,0 +1,42 @@
+[
+  {
+    "index": "bag-of-beans",
+    "name": "A Bag of Beans",
+    "description": "Plant one to find out if you're getting a fruit tree or a pyramid full of mummies."
+  },
+  {
+    "index": "cursed-deck",
+    "name": "The Deck of Many Things",
+    "description": "A deck of cards designed to end a campaign in exactly 30 seconds."
+  },
+  {
+    "index": "sober-flagon",
+    "name": "The Flagon of Sobriety",
+    "description": "An item that turns the best ale into room-temperature water. Truly evil."
+  },
+  {
+    "index": "immovable-rod",
+    "name": "An Immovable Rod",
+    "description": "A button-activated rod that defies gravity and physics, usually placed in inconvenient places."
+  },
+  {
+    "index": "sending-stones-spam",
+    "name": "Cursed Sending Stones",
+    "description": "They only receive telepathic spam about your carriage's extended warranty."
+  },
+  {
+    "index": "portable-hole",
+    "name": "A Portable Hole",
+    "description": "A circle of cloth that creates a hole. Do not put it inside a Bag of Holding."
+  },
+  {
+    "index": "sentient-sword",
+    "name": "A Sentient Sword that won't stop screaming",
+    "description": "It has +3 to attack but -10 to your patience."
+  },
+  {
+    "index": "cloak-of-billowing",
+    "name": "A Cloak of Billowing",
+    "description": "Does absolutely nothing except look cool in a light breeze."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "index": "fireball-small-room",
+    "name": "Casting Fireball in a small room",
+    "description": "A classic tactical error involving tight spaces and 8d6 fire damage to your own party."
+  },
+  {
+    "index": "seduce-door",
+    "name": "Trying to seduce the door",
+    "description": "The Bard's last resort when the Rogue fails to pick the lock."
+  },
+  {
+    "index": "dumping-stats",
+    "name": "Dumping Intelligence",
+    "description": "Playing a character who thinks a 'Mind Flayer' is just a really good hairstylist."
+  },
+  {
+    "index": "natural-one",
+    "name": "Rolling a Natural 1",
+    "description": "The cosmic force that makes a legendary hero trip over their own cape."
+  },
+  {
+    "index": "licking-walls",
+    "name": "Licking the dungeon walls",
+    "description": "A highly unorthodox (and toxic) method for detecting secret passages or illusions."
+  },
+  {
+    "index": "vicious-mockery-orphan",
+    "name": "Using Vicious Mockery on an orphan",
+    "description": "Winning the argument, but losing your soul in the process."
+  },
+  {
+    "index": "checking-traps-face",
+    "name": "Checking for traps with your face",
+    "description": "The fastest way to find a pressure plate, though usually only usable once."
+  },
+  {
+    "index": "stealing-party-gold",
+    "name": "Stealing gold from the Paladin",
+    "description": "A great way to test how 'lawful good' your friend actually is."
+  },
+  {
+    "index": "long-rest-ambush",
+    "name": "Demanding a long rest in a boss room",
+    "description": "Sleeping soundly while the Big Bad Evil Guy watches in confusion."
+  },
+  {
+    "index": "wild-shape-goldfish",
+    "name": "Wild Shaping into a goldfish",
+    "description": "A majestic transformation, assuming you are currently in a bowl."
+  },
+  {
+    "index": "eating-the-quest-item",
+    "name": "Eating the quest item",
+    "description": "It looked like a grape, but it was actually the eye of a dead god."
+  },
+  {
+    "index": "divine-smite-squirrel",
+    "name": "Using a 5th-level Smite on a squirrel",
+    "description": "There is no such thing as 'overkill' in the eyes of the Gods."
+  },
+  {
+    "index": "splitting-the-party",
+    "name": "Splitting the party",
+    "description": "The number one cause of unexpected character sheet incineration."
+  },
+  {
+    "index": "pocket-sand",
+    "name": "Throwing pocket sand",
+    "description": "The Rogue's version of a high-level blinding spell."
+  },
+  {
+    "index": "begging-the-dm",
+    "name": "Begging the DM for a reroll",
+    "description": "A desperate plea involving snacks, tears, or actual bribery."
+  }
+]

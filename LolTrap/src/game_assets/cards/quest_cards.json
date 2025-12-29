@@ -1,0 +1,62 @@
+[
+  { "id": 1, "text": "The party's plan failed because the Rogue rolled a Nat 1 on _.", "blanks": 1 },
+  { "id": 2, "text": "I roll for Persuasion to convince the ancient dragon that I am actually _.", "blanks": 1 },
+  { "id": 3, "text": "The Wizard's spellbook was accidentally replaced with _.", "blanks": 1 },
+  { "id": 4, "text": "The Cleric's deity is angry because they offered _ as a sacrifice.", "blanks": 1 },
+  { "id": 5, "text": "The only thing standing between us and a Total Party Kill is _.", "blanks": 1 },
+  { "id": 6, "text": "In a desperate move, the Bard used _ to seduce _.", "blanks": 2 },
+  { "id": 7, "text": "The dungeon's final treasure chest contained nothing but _.", "blanks": 1 },
+  { "id": 8, "text": "Our Barbarian doesn't rage; they just get really passionate about _.", "blanks": 1 },
+  { "id": 9, "text": "The town guard arrested the party for _ in the middle of the town square.", "blanks": 1 },
+  { "id": 10, "text": "The secret password to the Thieves' Guild is actually _.", "blanks": 1 },
+  { "id": 11, "text": "I'm not a Murder Hobo, I'm just a specialist in _.", "blanks": 1 },
+  { "id": 12, "text": "The mimic wasn't a chest; it was actually _ the whole time!", "blanks": 1 },
+  { "id": 13, "text": "My Patron granted me eldritch powers in exchange for _.", "blanks": 1 },
+  { "id": 14, "text": "To solve the puzzle, we had to combine _ with _.", "blanks": 2 },
+  { "id": 15, "text": "The Druid was banned from the forest for turning into _.", "blanks": 1 },
+  { "id": 16, "text": "Nothing says 'Critical Failure' like _.", "blanks": 1 },
+  { "id": 17, "text": "The Paladin broke their oath by _.", "blanks": 1 },
+  { "id": 18, "text": "The tavern is called 'The _ and the _'.", "blanks": 2 },
+  { "id": 19, "text": "I carry _ in my inventory just in case of _.", "blanks": 2 },
+  { "id": 20, "text": "The campaign ended early because the DM couldn't stop laughing at _.", "blanks": 1 },
+  {
+    "id": 21, 
+    "text": "The only way to stop _ from destroying the town is by using _.", 
+    "blanks": 2 
+  },
+  {
+    "id": 22, 
+    "text": "The Tavern was ruined after _ attempted _.", 
+    "blanks": 2 
+  },
+  {
+    "id": 23, 
+    "text": "I used my last spell slot to cast _ on _, and the DM just walked out of the room.", 
+    "blanks": 2 
+  },
+  {
+    "id": 24, 
+    "text": "Our _ found _ and decided it was now their new religion.", 
+    "blanks": 2 
+  },
+  {
+    "id": 25, 
+    "text": "The dragon isn't guarding gold; it's actually guarding _ and _.", 
+    "blanks": 2 
+  },
+  {
+    "id": 26, 
+    "text": "The secret to defeating the Lich is simple: just combine _ with _.", 
+    "blanks": 2 
+  },
+  {
+    "id": 27, 
+    "text": "In a weird turn of events, the _ ended up being the one who was _.", 
+    "blanks": 2 
+  },
+  {
+    "id": 28, 
+    "text": "The party's heist went wrong when _ started _.", 
+    "blanks": 2 
+  }
+]

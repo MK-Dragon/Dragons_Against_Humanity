@@ -17,8 +17,8 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="jokes">Need a Joke?</Nav.Link>
             <Nav.Link href="dnd">Dragons VS Humanity</Nav.Link>
+            <Nav.Link href="jokes">Need a Joke?</Nav.Link>
             <Nav.Link href="about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>

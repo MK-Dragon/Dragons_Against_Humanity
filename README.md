@@ -2,12 +2,27 @@
 A fun D&amp;D take on the popular game "cards against humanity"! Draw some cards and create THE Most Fun and Chaotic story you can! (Best Played with FUN Drunk and Frieds)
 
 <br>
-This app was abandoned for gameplay resons...
+
+## How to Play:
+
+The Gameplay Loop:
+
+1) The **Dungeon Master** (DM) for the Round: One player starts as the DM. They draw a **Quest Card** (the prompt card with blanks).
+
+2) The **Party’s** Response: Every other player looks at their hand of **Loot Cards** (classes, items, spells, NPCs) and submits the funniest or most chaotic card(s) face down.
+
+3) The Reveal: The DM reads the Quest Card aloud, filling in the blanks with the submitted cards.
+
+4) The Reward: The DM chooses the winner based on what made them laugh the most. The winner receives an **Inspiration Point** (the card they won).
+
+5) Passing the Torch: The role of DM rotates clockwise for the next round.
+
+6) **Victory**: The first player to reach a set number of **Inspiration Points** (e.g., 5 or 10) is declared the ***"Legendary Hero."***
 
 <br><br><hr><hr><br><br>
 
 # LoolTrap
-LoolTrap is an APP that traps you in it by serving you Jokes! ^_^ Then you are traped, but "Laughing Out Loud"! XD
+***LoolTrap*** is an APP that **traps you** in it by **serving you Jokes!** ^_^ ***Then you are traped, but "Laughing Out Loud"! XD***
 
 <br><br><hr><hr><br><br>
 
@@ -52,6 +67,7 @@ npm install react-icons
 5e-bits:
 - Docs: https://5e-bits.github.io/docs/tutorials/advanced/react-spell-cards
 - Spell API: https://5e-bits.github.io/docs/api/get-a-spell-by-index
+- Available Resources: https://5e-bits.github.io/docs/api/get-list-of-all-available-resources-for-an-endpoint
 <br><br>
 Funny API i fond:
 - https://sv443.net/jokeapi/v2/

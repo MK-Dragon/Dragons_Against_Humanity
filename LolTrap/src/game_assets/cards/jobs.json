@@ -1,0 +1,12 @@
+[
+  { "index": "blacksmith", "name": "Blacksmith", "description": "Forger of weapons and mender of armor." },
+  { "index": "librarian", "name": "Librarian", "description": "Keeper of forbidden scrolls and ancient lore." },
+  { "index": "alchemist", "name": "Alchemist", "description": "Mixes volatile potions and occasionally explodes things." },
+  { "index": "gardener", "name": "Gardener", "description": "Tends to rare herbs and dangerous carnivorous plants." },
+  { "index": "bounty-hunter", "name": "Bounty Hunter", "description": "Tracks down fugitives for coin and glory." },
+  { "index": "cook", "name": "Cook", "description": "Specializes in making monster meat taste like chicken." },
+  { "index": "town-guard", "name": "Town Guard", "description": "Patrols the streets and used to be an adventurer like you." },
+  { "index": "fortune-teller", "name": "Fortune Teller", "description": "Uses crystal balls and cards to predict your doom." },
+  { "index": "innkeeper", "name": "Innkeeper", "description": "The primary source of rumors and overpriced ale." },
+  { "index": "scribe", "name": "Scribe", "description": "Expert in calligraphy and copying magical manuscripts." }
+]

@@ -1,0 +1,12 @@
+[
+  { "name": "Brynna Deepforge", "race": "dwarf", "class": "cleric", "job": "blacksmith" },
+  { "name": "Kallista", "race": "tiefling", "class": "warlock", "job": "librarian" },
+  { "name": "Gimble Spark", "race": "gnome", "class": "wizard", "job": "alchemist" },
+  { "name": "Thokk the Gentle", "race": "half-orc", "class": "barbarian", "job": "gardener" },
+  { "name": "Elowen Leafwalker", "race": "elf", "class": "ranger", "job": "bounty-hunter" },
+  { "name": "Milo Tea-Leaf", "race": "halfling", "class": "rogue", "job": "cook" },
+  { "name": "Valerius Sunshield", "race": "human", "class": "paladin", "job": "town-guard" },
+  { "name": "Zarax", "race": "dragonborn", "class": "sorcerer", "job": "fortune-teller" },
+  { "name": "Finnian", "race": "half-elf", "class": "bard", "job": "innkeeper" },
+  { "name": "Brother Orym", "race": "human", "class": "monk", "job": "scribe" }
+]
