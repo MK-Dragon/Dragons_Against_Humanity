@@ -9,17 +9,17 @@ import { Link } from 'react-router-dom';
 
 
 
-function BasicExample() {
+function NavBar() {
   return (
-    <Navbar expand="lg" bg="primary" data-bs-theme="dark" className="shadow-sm">
+    <Navbar expand="lg" bg="primary" data-bs-theme="dark" className="shadow-sm" fixed="top">
       <Container>
         <Navbar.Brand href="/">Lool Trap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="dnd">Dragons VS Humanity</Nav.Link>
-            <Nav.Link href="jokes">Need a Joke?</Nav.Link>
-            <Nav.Link href="about">About</Nav.Link>
+            <Nav.Link href="/dnd">Dragons VS Humanity</Nav.Link>
+            <Nav.Link href="/jokes">Need a Joke?</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -27,7 +27,7 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavBar;
 
 
 /*

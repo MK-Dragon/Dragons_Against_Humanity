@@ -11,8 +11,13 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 // Pages:
-import Jokes from './Pages/Jokes.jsx'
+import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
+// Jokes
+import Jokes from './Pages/Jokes.jsx'
+// DND
+import DnDPage from './Pages/DAH.jsx'
+import QuestScreen from './Pages/DM.jsx'
 
 
 
@@ -88,9 +93,14 @@ function App() {
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Jokes />} />
+          <Route path="/" element={<Home />} />
           <Route path="/jokes" element={<Jokes />} />
-          <Route path="/dnd" element={<Jokes />} />
+          <Route path="/dnd" element={<DnDPage />} />
+          <Route path="/dm" element={<QuestScreen />} />
+          <Route path="/player" element={<DnDPage />}>
+            {/*<Route path="all" element={<AllCards />} />*/}
+            {/*<Route path="selected" element={<SelectedCards />} />*/}
+          </Route>
           <Route path="/about" element={<About />} />
         </Routes>
 
