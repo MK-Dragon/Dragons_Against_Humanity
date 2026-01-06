@@ -18,6 +18,7 @@ import Jokes from './Pages/Jokes.jsx'
 // DND
 import DnDPage from './Pages/DAH.jsx'
 import QuestScreen from './Pages/DM.jsx'
+import PlayerDashboard from './Pages/Player.jsx'
 
 
 
@@ -97,7 +98,7 @@ function App() {
           <Route path="/jokes" element={<Jokes />} />
           <Route path="/dnd" element={<DnDPage />} />
           <Route path="/dm" element={<QuestScreen />} />
-          <Route path="/player" element={<DnDPage />}>
+          <Route path="/player" element={<PlayerDashboard />}>
             {/*<Route path="all" element={<AllCards />} />*/}
             {/*<Route path="selected" element={<SelectedCards />} />*/}
           </Route>

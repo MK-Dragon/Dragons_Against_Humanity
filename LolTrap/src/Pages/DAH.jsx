@@ -33,7 +33,7 @@ const DnDPage = () => {
                 ⚔️
               </div>
               <h2 className="card-title fw-bold">Player</h2>
-              <Link to="/dnd/player" className="btn btn-danger btn-lg w-100">
+              <Link to="/player" className="btn btn-danger btn-lg w-100">
                 Roll for Initiative!
               </Link>
             </div>
